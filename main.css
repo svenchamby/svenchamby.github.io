@@ -27,7 +27,8 @@ h3 + h4 {
 header,
 footer {
 	background: black;
-	padding: 2em
+	color: aliceblue;
+	padding: 2em;
 }
 main {
 	margin: 1em 2em;
