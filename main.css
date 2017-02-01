@@ -1,12 +1,74 @@
+/* general styles */
+
 * {
-	box-sizing: border-box
+	font-family: helvetica, arial, sans-serif;
 }
 
-article,
-aside,
-footer,
+
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	margin: 0;
+	color: aliceblue;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: red;
+}
+h3 + h4 {
+	margin-top: 0.5em;
+}
 header,
-nav,
-section,
-main,
-figcaption,
+footer {
+	background: black;
+	padding: 2em
+}
+main {
+	margin: 1em 2em;
+}
+
+/* navigation */
+nav {
+	padding: 1.5em 2em;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav li {
+	display: inline;
+	margin-right: 1em;
+}
+nav li a {
+	color: aliceblue;
+	text-decoration: none;
+}
+nav li a:visited {
+	color: #fff;
+}
+nav li a:active {
+	color: red;
+}
+
+/* link styles */
+a:link {
+	color: crimson;
+}
+a:visited {
+	color: deeppink;
+}
+a:focus {
+	color: red;
+}
+a:hover {
+	color: firebrick;
+}
+a:active {
+	color: black;
+}
