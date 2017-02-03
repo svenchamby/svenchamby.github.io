@@ -36,6 +36,7 @@ footer {
 	margin-top: 5em;
 	bottom: 0;
 	padding-left: 0;
+	padding-right: 0;
 }
 footer ul {
 	text-align: center;
@@ -49,7 +50,7 @@ footer ul li {
 main {
 	margin: 1em 2em;
 	padding-bottom: 1em;
-	min-height: calc(100vh - 100px);
+	min-height: calc(100vh - 250px);
 }
 img {
 	height: auto;
