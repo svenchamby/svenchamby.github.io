@@ -12,7 +12,7 @@ body {
 }
 h1 {
 	margin: 0;
-	color: #fff;
+	color: white;
 }
 h2,
 h3 {
@@ -24,7 +24,7 @@ h2 + h3 {
 header,
 footer {
 	background: deepskyblue;
-	color: #fff;
+	color: white;
 	padding: 1em;
 	width: inherit;
 }
@@ -48,6 +48,11 @@ main {
 	padding-bottom: 1em;
 	min-height: calc(100vh - 250px);
 }
+#logo {
+	height: 4em;
+	float: left;
+	margin-right: 1em;
+}
 
 /* weather */
 #icon {
@@ -67,7 +72,8 @@ main {
 }
 .container {
 	display: block;
-	width: 90%;
+	width: 250px;
+	height: 50px;
 	margin: auto;
 }
 #wind {
@@ -86,7 +92,6 @@ main {
 /* navigation */
 nav {
 	padding: 0.25em;
-	background-color: deepskyblue;
 }
 nav ul {
 	text-align: center;
@@ -98,29 +103,29 @@ nav .link {
 	margin-right: 1em;
 }
 nav .link a {
-	color: aliceblue;
+	color: white;
 	text-decoration: none;
 }
 nav .link a:visited {
-	color: #fff;
+	color: aliceblue;
 }
 nav .link a:active {
-	color: lightgreen;
+	color: lightyellow;
 }
 
 /* link styles */
 a:link {
-	color: darkgreen;
+	color: darkblue;
 }
 a:visited {
-	color: darkseagreen;
+	color: deepskyblue;
 }
 a:focus {
-	color: green;
+	color: dodgerblue;
 }
 a:hover {
-	color: greenyellow;
+	color: dodgerblue;
 }
 a:active {
-	color: blueviolet;
+	color: skyblue;
 }
