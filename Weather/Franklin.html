@@ -6,7 +6,7 @@
 	<title>Weather | Franklin Weather</title>
 	<meta name="viewport" content="width=device-width">
 	<link type="text/css" rel="stylesheet" href="/normalize.css">
-	<link type="text/css" rel="stylesheet" href=""> </head>
+	<link type="text/css" rel="stylesheet" href="styles.css"> </head>
 
 <body>
 	<header>
@@ -20,7 +20,8 @@
 		</nav>
 	</header>
 	<main>
-		<!--"Franklin": {
+		<section id="weather">
+			<!--"Franklin": {
 "City": "Franklin",
 "State": "ID",
 "High": 90,
@@ -29,21 +30,24 @@
 "Wind": "1 - 5",
 "Direction": "Southwest",
 "Summary": "Sunny",-->
-		<h2 class="city">Franklin</h2>
-		<h3 class="state">ID</h3> <img src="images/Sunny-icon.png" id="icon">
-		<div id="summary">Sunny</div>
-		<div id="high">High: 90</div>
-		<div id="low">Low: 66</div>
-		<div id="precip">Precip: 0</div>
-		<div id="wind">Wind: 1-5 mph</div>
-		<div id="direction">Direction: SW</div>
+			<h2 class="city">Franklin</h2>
+			<h3 class="state">ID</h3>
+			<div id="summary">Sunny</div> <img src="images/Sunny-icon.png" id="icon">
+			<div id="temps">High: 90
+				<br>Low: 66</div>
+			<div class="container">
+				<div id="wind">Wind: 1-5 mph
+					<br>Direction: SW</div>
+				<div id="precip">Precip: 0%</div>
+			</div>
+		</section>
+		<aside id="link"><a href="images/03-iPhone.jpg">Mobile Sketch</a></aside>
 	</main>
 	<footer>
 		<ul>
 			<li>&copy;2016</li>
 			<li> Steven Chamberlain
-				<br>
-			</li>
+				<br> </li>
 			<li>Last Updated: 2017-2-2 </li>
 		</ul>
 		<p> </p>
