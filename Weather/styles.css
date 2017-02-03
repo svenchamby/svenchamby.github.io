@@ -2,25 +2,27 @@
 	font-family: helvetica, arial, sans-serif;
 }
 
-
-}
 body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
 	width: auto;
 }
+
 h1 {
 	margin: 0;
 	color: white;
 }
+
 h2,
 h3 {
 	text-align: center;
 }
+
 h2 + h3 {
 	margin-top: -1em;
 }
+
 header,
 footer {
 	background: deepskyblue;
@@ -28,33 +30,40 @@ footer {
 	padding: 1em;
 	width: inherit;
 }
+
 footer {
 	margin-top: 1em;
 	bottom: 0;
 	padding-left: 0;
 	width: inherit;
 }
+
 footer ul {
 	text-align: center;
 	margin: 0;
 }
+
 footer ul li {
 	display: inline;
 	margin-right: auto;
 	margin-left: auto;
 }
+
 main {
 	margin: 1em 2em;
 	padding-bottom: 1em;
 	min-height: calc(100vh - 250px);
 }
+
 #logo {
 	height: 4em;
 	float: left;
 	margin-right: 1em;
 }
 
+
 /* weather */
+
 #icon {
 	height: auto;
 	max-width: 100%;
@@ -63,25 +72,31 @@ main {
 	margin: auto;
 	padding: 1em;
 }
+
 #summary {
 	text-align: center;
 }
+
 #temps {
 	text-align: center;
 	padding: 1em;
 }
+
 .container {
 	display: block;
 	width: 250px;
 	height: 50px;
 	margin: auto;
 }
+
 #wind {
 	float: left;
 }
+
 #precip {
 	text-align: right;
 }
+
 #link {
 	display: block;
 	padding-top: 3em;
@@ -89,44 +104,57 @@ main {
 	margin: 0;
 }
 
+
 /* navigation */
+
 nav {
 	padding: 0.25em;
 	text-align: left;
 }
+
 nav ul {
 	margin: 0;
 	padding: 0;
 	text-align: left;
 }
+
 nav .link {
 	display: inline;
 	margin-right: 1em;
 }
+
 nav .link a {
 	color: white;
 	text-decoration: none;
 }
+
 nav .link a:visited {
 	color: aliceblue;
 }
+
 nav .link a:active {
 	color: lightyellow;
 }
 
+
 /* link styles */
+
 a:link {
 	color: darkblue;
 }
+
 a:visited {
 	color: deepskyblue;
 }
+
 a:focus {
 	color: dodgerblue;
 }
+
 a:hover {
 	color: dodgerblue;
 }
+
 a:active {
 	color: skyblue;
 }
