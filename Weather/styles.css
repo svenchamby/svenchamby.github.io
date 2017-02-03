@@ -92,6 +92,7 @@ main {
 /* navigation */
 nav {
 	padding: 0.25em;
+	text-align: left;
 }
 nav ul {
 	margin: 0;
