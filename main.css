@@ -9,6 +9,7 @@
 body {
 	margin: 0;
 	padding: 0;
+	height: 100%;
 }
 h1 {
 	margin: 0;
@@ -27,11 +28,33 @@ h3 + h4 {
 header,
 footer {
 	background: black;
-	color: aliceblue;
-	padding: 2em;
+	color: #fff;
+	padding: 1em;
+	width: 100%;
+}
+footer {
+	margin-top: 5em;
+	bottom: 0;
+	padding-left: 0;
+}
+footer ul {
+	text-align: center;
+	margin: 0;
+}
+footer ul li {
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
 }
 main {
 	margin: 1em 2em;
+	padding-bottom: 1em;
+	min-height: calc(100vh - 100px);
+}
+img {
+	height: auto;
+	max-width: 100%;
+	max-height: 300px;
 }
 
 /* navigation */
