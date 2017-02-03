@@ -10,7 +10,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	width: 100%;
+	width: auto;
 }
 h1 {
 	margin: 0;
@@ -31,13 +31,13 @@ footer {
 	background: black;
 	color: #fff;
 	padding: 1em;
-	width: 100%;
+	width: inherit;
 }
 footer {
 	margin-top: 5em;
 	bottom: 0;
 	padding-left: 0;
-	padding-right: inherit;
+	width: inherit;
 }
 footer ul {
 	text-align: center;
