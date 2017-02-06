@@ -6,7 +6,7 @@ body {
 	margin: 0;
 	padding: 0;
 	height: 100%;
-	width: auto;
+	width: 100%;
 }
 
 h1 {
@@ -53,6 +53,7 @@ main {
 	margin: 1em 2em;
 	padding-bottom: 1em;
 	min-height: calc(100vh - 250px);
+	width: auto;
 }
 
 #logo {
@@ -82,7 +83,7 @@ main {
 	padding: 1em;
 }
 
-.container {
+#other {
 	display: block;
 	width: 250px;
 	height: 50px;
@@ -102,6 +103,10 @@ main {
 	padding-top: 3em;
 	text-align: center;
 	margin: 0;
+}
+
+#hourly {
+	display: none;
 }
 
 
@@ -157,4 +162,66 @@ a:hover {
 
 a:active {
 	color: skyblue;
+}
+
+
+/* medium screen media queries */
+
+@media screen and (min-width: 32em) {
+	#title {
+		width: 20em;
+		margin: auto;
+	}
+	#general {
+		background-color: ghostwhite;
+		border: darkblue 1px solid;
+		float: left;
+		padding: 1em;
+		margin: auto;
+		margin-right: 1em;
+		height: 17em;
+	}
+	#other {
+		background-color: ghostwhite;
+		border: darkblue 1px solid;
+		padding: 1em;
+		width: auto;
+		margin-top: 1em;
+		clear: both;
+	}
+	#wind {
+		float: none;
+		text-align: center;
+	}
+	#precip {
+		text-align: center;
+	}
+	#hourly {
+		display: block;
+		background-color: ghostwhite;
+		border: darkblue 1px solid;
+		padding: 1em;
+		margin: auto;
+		height: 17em;
+		overflow: auto;
+	}
+	#hourly h3 {
+		margin-top: 0;
+	}
+	#time {
+		display: inline-block;
+		text-align: right;
+		width: 50%;
+		margin-right: 1em;
+	}
+	#hourtemps {
+		display: inline-block;
+		text-align: left;
+		width: 25%;
+		margin-left: 1em;
+	}
+	/* code for hiding hourly weather */
+	.hide-small {
+		display: block;
+	}
 }
