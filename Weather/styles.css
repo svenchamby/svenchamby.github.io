@@ -143,27 +143,34 @@
 	/* link styles */
 
 	a:link {
-		color: darkblue;
-	}
-
-	a:visited {
 		color: deepskyblue;
 	}
 
+	a:visited {
+		color: skyblue;
+	}
+
 	a:focus {
-		color: dodgerblue;
+		color: lightblue;
 	}
 
 	a:hover {
-		color: dodgerblue;
+		color: lightblue;
 	}
 
 	a:active {
-		color: skyblue;
+		color: powderblue;
 	}
 	/* medium screen media queries */
 
 	@media only screen and (min-width: 32em) {
+		body {
+			background-image: url(images/TexturesCom_MountainsGreen0063_2_alphamasked_S.png);
+			background-position: bottom center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-color: skyblue;
+		}
 		#title {
 			width: 20em;
 			margin: auto;
