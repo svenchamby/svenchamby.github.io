@@ -1,227 +1,253 @@
-* {
-	font-family: helvetica, arial, sans-serif;
-}
-
-body {
-	margin: 0;
-	padding: 0;
-	height: 100%;
-	width: 100%;
-}
-
-h1 {
-	margin: 0;
-	color: white;
-}
-
-h2,
-h3 {
-	text-align: center;
-}
-
-h2 + h3 {
-	margin-top: -1em;
-}
-
-header,
-footer {
-	background: deepskyblue;
-	color: white;
-	padding: 1em;
-	width: inherit;
-}
-
-footer {
-	margin-top: 1em;
-	bottom: 0;
-	padding-left: 0;
-	width: inherit;
-}
-
-footer ul {
-	text-align: center;
-	margin: 0;
-}
-
-footer ul li {
-	display: inline;
-	margin-right: auto;
-	margin-left: auto;
-}
-
-main {
-	margin: 1em 2em;
-	padding-bottom: 1em;
-	min-height: calc(100vh - 250px);
-	width: auto;
-}
-
-#logo {
-	height: 4em;
-	float: left;
-	margin-right: 1em;
-}
-
-
-/* weather */
-
-#icon {
-	height: auto;
-	max-width: 100%;
-	max-height: 150px;
-	display: block;
-	margin: auto;
-	padding: 1em;
-}
-
-#summary {
-	text-align: center;
-}
-
-#temps {
-	text-align: center;
-	padding: 1em;
-}
-
-#other {
-	display: block;
-	width: 250px;
-	height: 50px;
-	margin: auto;
-}
-
-#wind {
-	float: left;
-}
-
-#precip {
-	text-align: right;
-}
-
-#link {
-	display: block;
-	padding-top: 3em;
-	text-align: center;
-	margin: 0;
-}
-
-#hourly {
-	display: none;
-}
-
-
-/* navigation */
-
-nav {
-	padding: 0.25em;
-	text-align: left;
-}
-
-nav ul {
-	margin: 0;
-	padding: 0;
-	text-align: left;
-}
-
-nav .link {
-	display: inline;
-	margin-right: 1em;
-}
-
-nav .link a {
-	color: white;
-	text-decoration: none;
-}
-
-nav .link a:visited {
-	color: aliceblue;
-}
-
-nav .link a:active {
-	color: lightyellow;
-}
-
-
-/* link styles */
-
-a:link {
-	color: darkblue;
-}
-
-a:visited {
-	color: deepskyblue;
-}
-
-a:focus {
-	color: dodgerblue;
-}
-
-a:hover {
-	color: dodgerblue;
-}
-
-a:active {
-	color: skyblue;
-}
-
-
-/* medium screen media queries */
-
-@media screen and (min-width: 32em) {
-	#title {
-		width: 20em;
-		margin: auto;
+	* {
+		font-family: helvetica, arial, sans-serif;
 	}
-	#general {
-		background-color: ghostwhite;
-		border: darkblue 1px solid;
-		float: left;
-		padding: 1em;
-		margin: auto;
-		margin-right: 1em;
-		height: 17em;
+
+	body {
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
 	}
-	#other {
-		background-color: ghostwhite;
-		border: darkblue 1px solid;
+
+	h1 {
+		margin: 0;
+		color: white;
+	}
+
+	h2,
+	h3 {
+		text-align: center;
+	}
+
+	h2 + h3 {
+		margin-top: -1em;
+	}
+
+	header,
+	footer {
+		background: deepskyblue;
+		color: white;
 		padding: 1em;
-		width: auto;
+		width: inherit;
+	}
+
+	header {
+		border-bottom: groove deepskyblue 1px;
+	}
+
+	footer {
 		margin-top: 1em;
-		clear: both;
+		bottom: 0;
+		padding-left: 0;
+		width: inherit;
 	}
-	#wind {
-		float: none;
+
+	footer ul {
 		text-align: center;
+		margin: 0;
 	}
-	#precip {
-		text-align: center;
+
+	footer ul li {
+		display: inline;
+		margin-right: auto;
+		margin-left: auto;
 	}
-	#hourly {
-		display: block;
-		background-color: ghostwhite;
-		border: darkblue 1px solid;
-		padding: 1em;
-		margin: auto;
-		height: 17em;
-		overflow: auto;
+
+	main {
+		margin: 1em 2em;
+		padding-bottom: 1em;
+		min-height: calc(100vh - 250px);
+		width: auto;
 	}
-	#hourly h3 {
-		margin-top: 0;
-	}
-	#time {
-		display: inline-block;
-		text-align: right;
-		width: 50%;
+
+	#logo {
+		height: 4em;
+		float: left;
 		margin-right: 1em;
 	}
-	#hourtemps {
-		display: inline-block;
-		text-align: left;
-		width: 25%;
-		margin-left: 1em;
-	}
-	/* code for hiding hourly weather */
-	.hide-small {
+	/* weather */
+
+	#icon {
+		height: auto;
+		max-width: 100%;
+		max-height: 150px;
 		display: block;
+		margin: auto;
+		padding: 1em;
 	}
-}
+
+	#summary {
+		text-align: center;
+	}
+
+	#temps {
+		text-align: center;
+		padding: 1em;
+	}
+
+	#other {
+		display: block;
+		width: 250px;
+		height: 50px;
+		margin: auto;
+	}
+
+	#wind {
+		float: left;
+	}
+
+	#precip {
+		text-align: right;
+	}
+
+	#link {
+		display: block;
+		padding-top: 3em;
+		text-align: center;
+		margin: 0;
+	}
+
+	#hourly {
+		display: none;
+	}
+	/* navigation */
+
+	nav {
+		padding: 0.25em;
+		text-align: left;
+	}
+
+	nav ul {
+		margin: 0;
+		padding: 0;
+		text-align: left;
+	}
+
+	nav .link {
+		display: inline;
+		margin-right: 1em;
+	}
+
+	nav .link a {
+		color: white;
+		text-decoration: none;
+	}
+
+	nav .link a:visited {
+		color: aliceblue;
+	}
+
+	nav .link a:active {
+		color: lightyellow;
+	}
+	/* link styles */
+
+	a:link {
+		color: darkblue;
+	}
+
+	a:visited {
+		color: deepskyblue;
+	}
+
+	a:focus {
+		color: dodgerblue;
+	}
+
+	a:hover {
+		color: dodgerblue;
+	}
+
+	a:active {
+		color: skyblue;
+	}
+	/* medium screen media queries */
+
+	@media only screen and (min-width: 32em) {
+		#title {
+			width: 20em;
+			margin: auto;
+		}
+		main {
+			margin-right: 10%;
+			margin-left: 10%;
+		}
+		#general {
+			background-color: ghostwhite;
+			border: darkblue 1px solid;
+			float: left;
+			padding: 1em;
+			margin: auto;
+			margin-right: 1em;
+			height: 17em;
+			width: inherit;
+			min-width: 40%;
+		}
+		#other {
+			background-color: ghostwhite;
+			border: darkblue 1px solid;
+			padding: 1em;
+			width: auto;
+			margin-top: 1em;
+			clear: both;
+		}
+		#wind {
+			float: none;
+			text-align: center;
+		}
+		#precip {
+			text-align: center;
+		}
+		#hourly {
+			display: block;
+			background-color: ghostwhite;
+			border: darkblue 1px solid;
+			padding: 1em;
+			margin: auto;
+			height: 17em;
+			overflow: auto;
+		}
+		#hourly h3 {
+			margin-top: 0;
+		}
+		#time {
+			display: inline-block;
+			text-align: right;
+			width: 50%;
+			margin-right: 1em;
+		}
+		#hourtemps {
+			display: inline-block;
+			text-align: left;
+			width: 25%;
+			margin-left: 1em;
+		}
+	}
+	/* large screen media queries */
+
+	@media only screen and (min-width: 1024px) {
+		#title {
+			width: auto;
+			margin: 0;
+		}
+		body {
+			background-image: url(images/il_s6vvtuus-benjamin-child.jpg);
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			background-color: skyblue;
+		}
+		main {
+			background-color: white;
+			margin-top: 0;
+			margin-bottom: -1em;
+			margin-left: 15%;
+			margin-right: 15%;
+			padding-top: 1em;
+			padding-bottom: 2em;
+			padding-right: 1em;
+			padding-left: 1em;
+			border-left: groove skyblue;
+			border-right: groove skyblue;
+		}
+	}
