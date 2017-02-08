@@ -169,12 +169,12 @@
 			margin: auto;
 		}
 		main {
-			margin-right: 8%;
-			margin-left: 8%;
+			margin-right: 5%;
+			margin-left: 5%;
 		}
 		#general {
 			background-color: ghostwhite;
-			border: darkblue 1px solid;
+			border: deepskyblue inset;
 			float: left;
 			padding: 1em;
 			margin: auto;
@@ -185,7 +185,7 @@
 		}
 		#other {
 			background-color: ghostwhite;
-			border: darkblue 1px solid;
+			border: deepskyblue inset;
 			padding: 1em;
 			width: auto;
 			margin-top: 1em;
@@ -201,7 +201,7 @@
 		#hourly {
 			display: block;
 			background-color: ghostwhite;
-			border: darkblue 1px solid;
+			border: deepskyblue inset;
 			padding: 1em;
 			margin: auto;
 			height: 17em;
