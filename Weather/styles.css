@@ -113,6 +113,14 @@
 	#hourly {
 		display: none;
 	}
+
+	#medwire {
+		display: none;
+	}
+
+	#largewire {
+		display: none;
+	}
 	/* navigation */
 
 	nav {
@@ -241,6 +249,12 @@
 			width: 25%;
 			margin-left: 1em;
 		}
+		#smallwire {
+			display: none;
+		}
+		#medwire {
+			display: inline;
+		}
 	}
 	/* large screen media queries */
 
@@ -268,5 +282,11 @@
 			padding-left: 1em;
 			border-left: groove skyblue;
 			border-right: groove skyblue;
+		}
+		#medwire {
+			display: none;
+		}
+		#largewire {
+			display: inline;
 		}
 	}
