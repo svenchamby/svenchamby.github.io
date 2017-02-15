@@ -66,13 +66,23 @@
 	#logo {
 		display: none;
 	}
+
+	.info {
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
+		-ms-flex-flow: column wrap;
+		flex-flow: column wrap;
+	}
 	/* weather */
 
 	#icon {
 		height: auto;
 		max-width: 100%;
 		max-height: 150px;
-		display: block;
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: flex;
 		margin: auto;
 		padding: 1em;
 	}
@@ -90,7 +100,7 @@
 
 	#other {
 		display: block;
-		width: 250px;
+		width: 75%;
 		height: 50px;
 		margin: auto;
 	}
@@ -197,42 +207,36 @@
 			margin-right: 5%;
 			margin-left: 5%;
 		}
+		.container {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			width: 100%;
+			margin: auto;
+			display: flex;
+			-ms-flex-flow: row wrap;
+			flex-flow: row wrap;
+			-webkit-box-pack: start;
+			-ms-flex-pack: start;
+			justify-content: flex-start;
+			-ms-flex-line-pack: start;
+			align-content: flex-start;
+			height: 325px;
+		}
 		#general {
 			background-color: ghostwhite;
 			border: deepskyblue inset;
-			float: left;
 			padding: 1em;
-			margin: auto;
-			margin-right: 1em;
-			margin-bottom: 1em;
-			height: 19.5em;
-			width: inherit;
-			min-width: 40%;
-		}
-		#other {
-			background-color: ghostwhite;
-			border: deepskyblue inset;
-			padding: 1em;
-			width: auto;
-			margin-top: 1em;
-			clear: both;
-		}
-		#wind {
-			float: none;
-			text-align: center;
-		}
-		#precip {
-			text-align: center;
+			margin: 1%;
+			width: 40%;
 		}
 		#hourly {
 			display: block;
 			background-color: ghostwhite;
 			border: deepskyblue inset;
 			padding: 1em;
-			margin: auto;
-			height: 17em;
+			margin: 1%;
 			overflow: auto;
-			height: 19.5em;
+			width: 40%;
 		}
 		#hourly h3 {
 			margin-top: 0;
@@ -248,6 +252,23 @@
 			text-align: left;
 			width: 25%;
 			margin-left: 1em;
+		}
+		#other {
+			background-color: ghostwhite;
+			border: deepskyblue inset;
+			padding: 1em;
+			margin-top: 1em;
+			clear: both;
+			-webkit-box-flex: 2;
+			-ms-flex: 2 0 auto;
+			flex: 2 0 auto;
+		}
+		#wind {
+			float: none;
+			text-align: center;
+		}
+		#precip {
+			text-align: center;
 		}
 		#smallwire {
 			display: none;
