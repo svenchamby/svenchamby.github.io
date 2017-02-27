@@ -1,0 +1,162 @@
+* {
+	font-family: helvetica, arial, sans-serif;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+}
+
+header,
+footer {
+	background: black;
+	color: #fff;
+	padding: 1em;
+	width: inherit;
+}
+
+footer {
+	margin-top: 1em;
+	bottom: 0;
+	padding-left: 0;
+	width: inherit;
+	text-align: center;
+}
+
+footer a {
+	margin: 2em;
+}
+
+footer ul {
+	margin: 0;
+}
+
+footer ul li {
+	display: inline;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1 {
+	margin-bottom: 0;
+	margin-top: 0;
+	margin-left: 0.5em;
+}
+
+h2,
+h3,
+h4 {
+	margin-bottom: 0;
+}
+
+h1,
+h2 {
+	color: limegreen;
+}
+
+h2 {
+	font-size: 1.75em;
+	margin-bottom: 1.5em;
+}
+
+p {
+	margin-top: .5em;
+}
+
+main {
+	width: 70%;
+	margin: auto;
+	margin-bottom: -1em;
+	background-color: white;
+	padding: 1em;
+	height: 100em;
+}
+
+.define {
+	font-style: italic;
+}
+
+img {
+	max-width: 40%;
+	margin: auto;
+}
+
+p {
+	float: left;
+	max-width: 50%;
+	clear: left;
+}
+
+h4 {
+	clear: left;
+	margin-top: 2.5em;
+}
+
+main h2,
+h3,
+h4,
+p,
+ul,
+a {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+
+/* navigation and links */
+
+nav {
+	padding: .5em 1em;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav .link {
+	display: inline;
+	margin-right: 1em;
+}
+
+nav .link a {
+	color: aliceblue;
+	text-decoration: none;
+}
+
+nav .link a:visited {
+	color: #fff;
+}
+
+nav .link a:active {
+	color: lightgreen;
+}
+
+
+/* link styles */
+
+a:link {
+	color: darkgreen;
+}
+
+a:visited {
+	color: darkseagreen;
+}
+
+a:focus {
+	color: green;
+}
+
+a:hover {
+	color: greenyellow;
+}
+
+a:active {
+	color: blueviolet;
+}
