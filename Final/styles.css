@@ -1,0 +1,23 @@
+html {
+	font-family: arial, helvetica, sans-serif;
+}
+
+header {
+	background-color: firebrick;
+	color: aliceblue;
+	padding: 1em;
+	margin: 0;
+}
+
+.title,
+.tagline {
+	font-family: cursive;
+}
+
+.title {
+	margin-bottom: 0;
+}
+
+.tagline {
+	margin-top: 0.5em;
+}
