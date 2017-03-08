@@ -11,6 +11,7 @@ body {
 	padding: 0;
 	height: 100%;
 	width: auto;
+	background-color: aquamarine;
 }
 h1 {
 	margin: 0;
@@ -49,9 +50,14 @@ footer ul li {
 	margin-left: auto;
 }
 main {
-	margin: 1em 2em;
-	padding-bottom: 1em;
-	min-height: calc(100vh - 250px);
+	width: 70%;
+	margin: auto;
+	margin-bottom: -1em;
+	background-color: white;
+	padding: 1em;
+	height: 100em;
+	border-right: inset green;
+	border-left: inset aquamarine;
 }
 img {
 	height: auto;
