@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Character Generator - CharGen - D&D 5e Character Generator</title>
+	<link href="/normalize.css" rel="stylesheet" type="text/css">
+	<link href="styles.css" rel="stylesheet" type="text/css"> </head>
+
+<body>
+	<header></header>
+	<main>
+		<p> STR
+			<input id="STR" type="number" max="20" min="1" value="10"> (<span id="STRmod"></span>)
+			<br>DEX
+			<input id="DEX" type="number" max="20" min="1" value="10"> (<span id="DEXmod"></span>)
+			<br>CON
+			<input id="CON" type="number" max="20" min="1" value="10"> (<span id="CONmod"></span>)
+			<br>INT
+			<input id="INT" type="number" max="20" min="1" value="10"> (<span id="INTmod"></span>)
+			<br>WIS
+			<input id="WIS" type="number" max="20" min="1" value="10"> (<span id="WISmod"></span>)
+			<br>CHA
+			<input id="CHA" type="number" max="20" min="1" value="10"> (<span id="CHAmod"></span>) </p>
+		<button id="calculate" onclick="STRmod(), DEXmod(), CONmod(), INTmod(), WISmod(), CHAmod()">Calculate</button>
+		<script>
+			function STRmod() {
+				var str = document.getElementById('STR').value - 10;
+				total = parseInt(str) / 2;
+				document.getElementById('STRmod').innerHTML = Math.floor(total);
+			}
+
+			function STRmod() {
+				var str = document.getElementById('STR').value - 10;
+				total = parseInt(str) / 2;
+				document.getElementById('STRmod').innerHTML = Math.floor(total);
+			}
+
+			function DEXmod() {
+				var str = document.getElementById('DEX').value - 10;
+				total = parseInt(str) / 2;
+				document.getElementById('DEXmod').innerHTML = Math.floor(total);
+			}
+
+			function CONmod() {
+				var str = document.getElementById('CON').value - 10;
+				total = parseInt(str) / 2;
+				document.getElementById('CONmod').innerHTML = Math.floor(total);
+			}
+
+			function INTmod() {
+				var str = document.getElementById('INT').value - 10;
+				total = parseInt(str) / 2;
+				document.getElementById('INTmod').innerHTML = Math.floor(total);
+			}
+
+			function WISmod() {
+				var str = document.getElementById('WIS').value - 10;
+				total = parseInt(str) / 2;
+				document.getElementById('WISmod').innerHTML = Math.floor(total);
+			}
+
+			function CHAmod() {
+				var str = document.getElementById('CHA').value - 10;
+				total = parseInt(str) / 2;
+				document.getElementById('CHAmod').innerHTML = Math.floor(total);
+			}
+		</script>
+	</main>
+	<footer> </footer>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Steven's Simple JavaScript Calculator</title>
+	<link href="/normalize.css" rel="stylesheet" type="text/css"> </head>
+
+<body>
+	<center>
+		<h1>Steven's Simple JavaScript Calculator</h1>
+		<input id="number1" value="3" required type="number">
+		<input id="number2" value="2" required type="number">
+		<button onclick="add()">+</button>
+		<button onclick="subtract()">-</button>
+		<button onclick="multiply()">x</button>
+		<button onclick="divide()">/</button>
+		<br>
+		<div id="error"></div>
+		<p>Answer: <span id="total"></span></p>
+		<script>
+			function add() {
+				var num1 = document.getElementById('number1').value;
+				var num2 = document.getElementById('number2').value;
+				var total = 0;
+				if (num1 == "") {
+					num1 = 0
+				}
+				if (num2 == "") {
+					num2 = 0
+				}
+				total = parseFloat(num1) + parseFloat(num2);
+				document.getElementById('total').innerHTML = total;
+				console.log(total);
+			}
+
+			function subtract() {
+				var num1 = document.getElementById('number1').value;
+				var num2 = document.getElementById('number2').value;
+				var total = 0;
+				if (num1 == "") {
+					num1 = 0
+				}
+				if (num2 == "") {
+					num2 = 0
+				}
+				total = parseFloat(num1) - parseFloat(num2);
+				document.getElementById('total').innerHTML = total;
+				console.log(total);
+			}
+
+			function multiply() {
+				var num1 = document.getElementById('number1').value;
+				var num2 = document.getElementById('number2').value;
+				var total = 0;
+				if (num1 == "") {
+					num1 = 0
+				}
+				if (num2 == "") {
+					num2 = 0
+				}
+				total = parseFloat(num1) * parseFloat(num2);
+				document.getElementById('total').innerHTML = total;
+				console.log(total);
+			}
+
+			function divide() {
+				var num1 = document.getElementById('number1').value;
+				var num2 = document.getElementById('number2').value;
+				var total = 0;
+				if (num1 == "") {
+					num1 = 0
+				}
+				if (num2 == "") {
+					num2 = 0
+				}
+				if (num2 == "0") {
+					document.getElementById('error').innerHTML = "Cannot divide by 0";
+				}
+				total = parseFloat(num1) / parseFloat(num2);
+				document.getElementById('total').innerHTML = total;
+				if (total == "Infinity") {
+					document.getElementById('total').innerHTML = "Error"
+				}
+				console.log(total);
+			}
+		</script>
+	</center>
+</body>
+
+</html>
