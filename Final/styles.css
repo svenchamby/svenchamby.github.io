@@ -1,12 +1,26 @@
 html {
 	font-family: arial, helvetica, sans-serif;
+	/* Other Fonts to Use
+	font-family: 'Roboto Condensed', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-family: 'Rubik Mono One', sans-serif;
+	font-family: 'PT Serif', serif; */
+	color: ghostwhite;
+}
+
+body {
+	background-image: url();
+	background-size: auto;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	height: 100%;
 }
 
 header {
-	background-color: firebrick;
-	color: aliceblue;
+	background-color: black;
 	padding: 1em;
 	margin: 0;
+	opacity: 0.8;
 }
 
 .title,
@@ -20,4 +34,17 @@ header {
 
 .tagline {
 	margin-top: 0.5em;
+}
+
+main {
+	width: 75%;
+	margin: auto;
+}
+
+#wrapper {
+	width: 80%;
+	height: ;
+	margin: auto;
+	background-color: black;
+	opacity: 0.5;
 }
