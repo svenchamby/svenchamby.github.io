@@ -1,0 +1,13 @@
+Use .json for classes, backgrounds, and races pages & buttons that will pull info from json to display in central area
+
+<!-- Example:
+
+	button		button		button		button
+
+	Display Element: JSON info		Display Element: JSON info
+	DE: Json
+	DE: Json						DE: JSON
+	DE: Json
+	DE: JSON		DE:JSON			DE: JSON
+
+-->
