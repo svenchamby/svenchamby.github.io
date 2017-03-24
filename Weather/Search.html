@@ -26,22 +26,10 @@
 		</nav>
 	</header>
 	<main>
-		<section id="weather">
-			<h2 id="location"></h2>
-			<div class="info">
-				<div class="container">
-					<div id="general">
-						<div id="temps"></div> <img src="" id="icon" alt="weather icon">
-						<div id="summary"></div>
-					</div>
-					<div id="other">
-						<div id="wind">Wind: </div>
-						<div id="direction">Direction: </div>
-						<div id="precip">Precip:</div>
-					</div>
-				</div>
-			</div>
-		</section>
+		<form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+			<input type="search" name="query" id="query">
+			<input type="submit" name="submit" value="Search" id="send"> </form>
+		<section id="searchResults"> </section>
 	</main>
 	<footer>
 		<ul>
@@ -54,7 +42,7 @@
 	</footer>
 	<!--	<script src="/javascript/jquery-3.1.1.min.js"></script>-->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-	<script src="wu_remote.js"></script>
+	<script src="Search.js"></script>
 </body>
 
 </html>

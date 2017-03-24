@@ -77,6 +77,26 @@ main {
 }
 
 
+/* Search Form Styles */
+
+#srchfrm {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#query {
+	width: 60%;
+	margin-left: 10%;
+}
+
+#searchResults {
+	background-color: white;
+	padding: 1em;
+	margin: 1em;
+}
+
+
 /* weather */
 
 #icon {
@@ -98,9 +118,15 @@ main {
 
 #temps {
 	text-align: center;
-	padding: 1em;
 	font-size: 16pt;
 	font-weight: bold;
+}
+
+#high,
+#low {
+	text-align: center;
+	font-size: 12pt;
+	padding: 0.75em;
 }
 
 #other {
@@ -181,23 +207,23 @@ nav .link a:active {
 /* link styles */
 
 a:link {
-	color: deepskyblue;
+	color: blue;
 }
 
 a:visited {
-	color: skyblue;
+	color: darkblue;
 }
 
 a:focus {
-	color: lightblue;
+	color: blueviolet;
 }
 
 a:hover {
-	color: lightblue;
+	color: blueviolet;
 }
 
 a:active {
-	color: powderblue;
+	color: cyan;
 }
 
 
