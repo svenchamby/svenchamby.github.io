@@ -32,8 +32,14 @@ body {
 	padding: 0.5em;
 }
 
-main {
-	width: 80%;
+main,
+#display {
+	width: 90%;
+	margin: auto;
+}
+
+#abilities {
+	width: 90%;
 	margin: auto;
 }
 
@@ -90,4 +96,23 @@ nav .link a {
 	color: ghostwhite;
 	background-color: black;
 	padding: 0.75em;
+}
+
+nav .link a:visited {
+	color: ghostwhite;
+}
+
+nav .link a:hover {
+	color: darkred;
+	background-color: white;
+}
+
+nav .link a:focus {
+	color: darkred;
+	background-color: ghostwhite;
+}
+
+nav .link a:active {
+	color: black;
+	background-color: ghostwhite;
 }
