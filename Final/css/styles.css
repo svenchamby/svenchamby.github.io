@@ -8,6 +8,10 @@ html {
 	color: ghostwhite;
 }
 
+
+/* layout styles */
+
+html,
 body {
 	background-image: url(../images/wall-texture.jpg);
 	background-size: 32em;
@@ -15,25 +19,38 @@ body {
 	height: 100%;
 }
 
+#wrapper {
+	min-height: 100%;
+	height: auto;
+}
+
+#content {
+	background-color: rgba(0, 0, 0, 0.75);
+	width: 80%;
+	min-height: calc(100vh - 270px);
+	margin: auto;
+	padding: 0.5em;
+}
+
+main {
+	width: 80%;
+	margin: auto;
+}
+
+
+/* header & footer styles */
+
 header {
-	background-color: black;
-	padding: 1em;
+	background-color: rgba(114, 38, 38, 0.9);
+	padding-top: 0.1em;
 	margin: 0;
-}
-
-nav ul {
-	text-align: center;
-}
-
-nav ul li {
-	list-style: none;
-	display: inline;
-	margin: 2%;
+	height: 140px
 }
 
 .title,
 .tagline {
 	font-family: cursive;
+	margin-left: 10%;
 }
 
 .title {
@@ -44,24 +61,33 @@ nav ul li {
 	margin-top: 0.5em;
 }
 
-main {
-	width: 80%;
-	margin: auto;
-}
-
-#wrapper {
-	width: 80%;
-	height: 80vh;
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	background-color: black;
-	opacity: 0.80;
-}
-
 footer {
 	background-color: black;
 	padding: 1em;
+	height: 130px;
+}
+
+
+/* nav styles */
+
+nav {
+	background-color: black;
+	width: 100vw;
 	margin: 0;
+}
+
+nav ul {
+	text-align: center;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-flex;
+	margin: auto;
+}
+
+nav .link a {
+	color: ghostwhite;
+	background-color: black;
+	padding: 0.75em;
 }
