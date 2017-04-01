@@ -1,4 +1,3 @@
 images
-generator
-mobile display + menus
-json creation + implementation
+mobile display + menus + buttons
+css modifications + buttons + generator

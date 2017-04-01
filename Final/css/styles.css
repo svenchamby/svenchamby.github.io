@@ -5,7 +5,6 @@ html {
 	font-family: 'Roboto Slab', serif;
 	font-family: 'Rubik Mono One', sans-serif;
 	font-family: 'PT Serif', serif; */
-	color: ghostwhite;
 }
 
 
@@ -13,10 +12,12 @@ html {
 
 html,
 body {
-	background-image: url(../images/wall-texture.jpg);
-	background-size: 32em;
-	background-repeat: repeat;
 	height: 100%;
+	font-family: Roboto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Roboto Slab;
 }
 
 #wrapper {
@@ -25,8 +26,7 @@ body {
 }
 
 #content {
-	background-color: rgba(0, 0, 0, 0.75);
-	width: 80%;
+	width: 85%;
 	min-height: calc(100vh - 270px);
 	margin: auto;
 	padding: 0.5em;
@@ -45,9 +45,12 @@ main,
 
 
 /* header & footer styles */
+header, footer {
+	color: ghostwhite;
+}
 
 header {
-	background-color: rgba(114, 38, 38, 0.9);
+	background-color: rgb(114, 38, 38);
 	padding-top: 0.1em;
 	margin: 0;
 	height: 140px
@@ -55,7 +58,7 @@ header {
 
 .title,
 .tagline {
-	font-family: cursive;
+	font-family: PT Serif;
 	margin-left: 10%;
 }
 
@@ -115,4 +118,20 @@ nav .link a:focus {
 nav .link a:active {
 	color: black;
 	background-color: ghostwhite;
+}
+
+/* media queries */
+@media only screen and (min-width: 32em) {
+	html {
+		color: ghostwhite;
+	}
+	html,
+	body {
+		background-image: url(../images/wall-texture.jpg);
+		background-size: 32em;
+		background-repeat: repeat;
+	}
+	#content {
+		background-color: rgba(0, 0, 0, 0.75);
+	}
 }

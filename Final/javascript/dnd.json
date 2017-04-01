@@ -1,0 +1,349 @@
+{
+	"Dwarf": {
+		"RaceName": "Dwarf",
+		"AbilMod": "Constitution +2",
+		"Description": "Dwarves are a proud race, short and stout but mighty like the mountains. Their high constitutions make them hardy warriors and miners. Their skill with stone and metal is unmatched and the great treasure troves of their halls are the envy of the world. They are long lived, remembering past glories and holding long grudges. Dwarves are loyal and ture friends, and decisive often to the point of stubborness.",
+		"Physical": "Dwarves are known to be short and broad, standing between 4 and 5 feet tall. They have skin ranging from deep brown to pale skin tinged with red, and hair of black, gray, brown, or red.",
+		"Subraces": {
+			"Subrace1": {
+				"Name": "Hill Dwarf",
+				"AbilMod": "Wisdom +1",
+				"Description": "Hill dwarves have keen senses and deep intuition, and remarkable resilience."
+			},
+			"Subrace2": {
+				"Name": "Mountain Dwarf",
+				"AbilMod": "Strength +2",
+				"Description": "Mountain Dwarves are strong and hardy. Taller than their cousin dwarves, they are used to difficult lifestyles amidst more rugged terrain."
+			}
+		}
+	},
+	"Elf": {
+		"RaceName": "Elf",
+		"AbilMod": "Dexterity +2",
+		"Description": "Elves are the slender, graceful, and longlived masters of the wilderness. They can live up to 700 years, making them less rash and greedy than humans. While often aloof, elves can tackle difficult tasks with unmatched focus and relentlessness. Though they trust more in diplomacy in times of trial, when needed, they grace and ferocity.",
+		"Physical": "An elf's most distinguishing feature is perhaps their long, pointed ears. They stand slightly shorter than humans, from just under 5 feet tall to over 6 feet. and weigh around 100 to 145 pounds. Their skin ranges from pale white to copper to the deep purple of the Drow. Their hair comes in all sorts of colors, like those found common in humans or even in shades of green or blue.",
+		"Subraces": {
+			"Subrace1": {
+				"Name": "High Elf",
+				"AbilMod": "Intelligence +1",
+				"Description": "High elves have keen minds and the least of them have mastered the basics of magic. They are often percieved as haughty and elusive, but can also be known to be friendly and inviting."
+			},
+			"Subrace2": {
+				"Name": "Wood Elf",
+				"AbilMod": "Wisdom +1",
+				"Description": "Wood elves are best at home in the wilds of their native forests and are natural woodsmen. They have sharp senses and intuition and are quick on their feet."
+			},
+			"Subrace3": {
+				"Name": "Dark Elf (Drow)",
+				"AbilMod": "Charisma +1",
+				"Description": "The dark elves are the dark skinned cousins of the high elves. Long ago, they were banished from the surface world for their wicked ways, and thus have a reputation for evil. They are quite rare, and a good aligned drow is even rarer."
+			}
+		}
+	},
+	"Halfling": {
+		"RaceName": "Halfling",
+		"AbilMod": "Dexterity +2",
+		"Description": "Halflings are a kind, curious, and practical little folk. They are a happy and cheerful people that are often more concerned with their next meal than with the goings-on of the 'big folk.' However, they are adept at fitting in with almost any crowd because of their friendly nature and willingness to work with others.",
+		"Physical": "Halflings look like child sized humans, though their heads are proportionately large for their bodies. They are short, most standing only about 3 feet tall and weighing between 40 and 45 pounds. Their skin ranges from pale with a ruddy cast to tanned, and their hair is usually a shade of brown and wavy.",
+		"Subraces": {
+			"Subrace1": {
+				"Name": "Lightfoot",
+				"AbilMod": "Charisma +1",
+				"Description": "Lightfoot halflings can eaily hide from notice and can easily use larger people as cover. They are affable, easy to get along with, and more prone to wanderlust than are other halflings."
+			},
+			"Subrace2": {
+				"Name": "Stout",
+				"AbilMod": "Constitution +1",
+				"Description": "Hardy and brave, stout halflings boast a resistance to poison. Some say they have dwarven blood."
+			}
+		}
+	},
+	"Human": {
+		"RaceName": "Human",
+		"AbilMod": "Each ability score +1",
+		"Description": "Humans are versatile and able to adapt to just about any situation. These traits are what has allowed humanity to spread across most of the worlds you will encounter. They are increadibly diverse in language and culture ranging from barbarian tribes to sophisticated high societies. Chances are that humans are the most common race in the world you'll be playing in.",
+		"Physical": "Humans range in height from 5 to 6 feet tall, weigh from 125 to 250 pounds, and have a variety of skin and hair colors that range from light to dark."
+	},
+	"Dragonborn": {
+		"RaceName": "Dragonborn",
+		"AbilMod": "Strength +2, Charisma +1",
+		"Description": "Dragonborn are akin to dragons, though their origin is a mystery. They are a proud people amidst a world that often fears or misunderstands them. To a dragonborn, the needs of the clan come before the needs of all else. They seek to bring honor to their kinsmen and continually strive for self improvement, seeking self-sufficience and mastery.",
+		"Physical": "Dragonborn look like dragons standing erect as a humanoid but lacking wings or a tail. Their scales often reflect their draconic heritage and thus come in various shades ranging from red to gold to blue to silver to black."
+	},
+	"Gnome": {
+		"RaceName": "Gnome",
+		"AbilMod": "Intelligence +2",
+		"Description": "Gnomes are a clever people brimming with curiosity and enthusiasm. Though they are long-lived, they try to fit as many experiences into their lives as possible so that they may experience as much of the world as they can. They love jokes and pranks but also love hard work. Skilled alchemists, engineers, and inventors can almost always be found amongst the gnomes.",
+		"Physical": "Gnomes often stand slightly over 3 feet tall and weigh 40 to 45 pounds. Their usually have tan or brown skin, wild hair ranging from blond to brown. They have prodigious noses and wide smiles.",
+		"Subraces": {
+			"Subrace1": {
+				"Name": "Forest Gnome",
+				"AbilMod": "Dexterity +1",
+				"Description": "Forest gnomes have a knack for illusions and stealth. They're a secretive bunch that hide their comunities amidst sylvan forests and shroud them in illusion magic. Despite this, they are friendly and good spirited with friends amidst the elves and forest creatures."
+			},
+			"Subrace2": {
+				"Name": "Rock Gnome",
+				"AbilMod": "Constitution +1",
+				"Description": "Rock gnomes are both hardy and inventive, moreso than other gnomes. They are skilled craftsmen and tinkers."
+			}
+		}
+	},
+	"HalfElf": {
+		"RaceName": "Half Elf",
+		"AbilMod": "Charisma +2, Any other two scores +1",
+		"Description": "Half elves are products of the union between a human and an elf. They inherit the best traits from both their parents, being both skilled and versatile. They have no society of their own, growing up instead amongst either of their parents' people. In some cultures, this can be a lonely existance where half elves are so uncommon that one might live for years before meeting another. In other places, half elves are numerous enough to form small communities of their own.",
+		"Physical": "To a human, half elves appear elven and to an elf half elves appear human. Half elves stand about the same height as their parents. They range from 100 to 180 pounds. Their skin and hair colors lie somewhere between that of their parents."
+	},
+	"HalfOrc": {
+		"RaceName": "Half Orc",
+		"AbilMod": "Strenght +2, Constitution +1",
+		"Description": "Half orcs are the spawn of humans and orcs. Often this occurs as the result of a marriage between two barbarian tribes. Half orcs are strong and mighty warriors often found amongst tribal peoples or in city slums. Their orcish heritage sets them apart from the other races and many half orcs struggle to find their place in the world when surrounded by others not of their kind.",
+		"Physical": "Half orcs have many orcish features such as jutting jaws with prominent teeth, sloping foreheads, and massive builds tempered with human traits. They stand between 6 and 7 feet tall, weigh anywhere from 180 to 250 pounds, and have skin tones ranging from that of humans to the mottled green of the orcs."
+	},
+	"Tiefling": {
+		"RaceName": "Tiefling",
+		"AbilMod": "Intelligence +2, Charisma +1",
+		"Description": "Tieflings are derived from human heritage but are influenced by infernal heritage. The signs of devil blood in them often makes them outcasts, causing them to be mistrustful and self-reliant. They have no homeland, though some find refuge amongst others of their kind or amidst more tolerant societies.",
+		"Physical": "Tieflings appear human by the loosest definitions, as in they are roughly the same height and weight, but show strong signs of their infernal blood such as large horns, thick tails, sharp canine teeth, and solid colored eyes of black, white, red, silver, or gold. Their skin ranges from that of human coloration to shades of red. Their hair is usually a dark shade of brown, black, red, blue, or purple."
+	},
+	"Barbarian": {
+		"ClassName": "Barbarian",
+		"Description": "Barbarians hail from less civilized, tribal societies. They are not very concerned with the goings on of the 'civilized' world, instead focusing their efforts on survival, honor, and battle. Barbarians pride themselves in their strength and ability to thrive where city dwellers would perish. They are skilled fighters that are able to harness the feriocity of their animal instincts and release them in the heat of battle as a mighty rage.",
+		"SubType": "Primal Paths",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Path of the Totem Warrior",
+				"Description": "Totem warriors are led by a spirit animal which acts as a guide, protector, and inspiration. The totem spirit fills the barbarian with supernatural might, adding magical fuel to the barbarian's rage."
+			},
+			"Subclass2": {
+				"Name": "Path of the Berserker",
+				"Description": "Barbarians that learn to harness their rage into a deadly weapon are called berserkers. They charge into danger without a second thought, leaving a bloody swathe in their wake."
+			}
+		}
+	},
+	"Bard": {
+		"ClassName": "Bard",
+		"Description": "Bards are master storytellers, musicians, and performers who imbue their performances with magical power to aid their allies. A bard thrives on stories, whether that of others or own, and this often drives them to adventure. In battle, they rely more on skill and deftness than pure strength. Their tunes and tales have a magical edge that both inspires their allies and hinders their foes.",
+		"SubType": "Bard Colleges",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "College of Valor",
+				"Description": "Bards of the College of Valor that dedicate their lives to singing the songs of mighty heroes. They seek out great events so that they might witness them firsthand and that their telling of the event will live on forever. Their songs inspire others to great heroism."
+			},
+			"Subclass2": {
+				"Name": "College of Lore",
+				"Description": "Bards of the College of Lore pride themselves on being polymaths, knowing a little bit about everything. They have the ability to hold audiences spellbound with their tales. They pursue beauty and truth over the allegiance of great men and value honesty over loyalty."
+			}
+		}
+	},
+	"Cleric": {
+		"ClassName": "Cleric",
+		"Description": "Clerics dedicate their lives to serving the gods and in return are imbued with divine magic. More than mere preists, clerics act as the hands of their god and usually take up adventuring because of divine decree or revelation. They are excellent healers and fine warriors when need be.",
+		"SubType": "Cleric Domains",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Divine Domains",
+				"Description": "Clerics try to exemplify the values and aspects of their gods. Thus, they adopt a divine domain which acts as both a guide and a source of power. Choosing a specific domain will grant one access to certain spells. A domain should align with the principles of one's god. They are Knowledge, Life, Light, Nature, Tempest, Trickery, War."
+			}
+		}
+	},
+	"Druid": {
+		"ClassName": "Druid",
+		"Description": "Druids are the magical protectors of nature. They strive to preserve the balance of the natural world. They are able to harness the magic of the nature in order to preserve and protect it. Some druids hail from druidic temples, others follow gods of nature, and some are merely those who have lived in the wild long enough to learn of its secret power.",
+		"SubType": "Druid Circles",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Circle of the Land",
+				"Description": "Druids of this circle are mystics or sages that safeguard ancient knowledge and rites through oral tradition. They meet within circles of trees or standing stones to whisper their secrets in Druidic. Their magic is influenced by the land where they were initiated into their circle."
+			},
+			"Subclass2": {
+				"Name": "Circle of the Moon",
+				"Description": "These druids are fierce guardians of the wilds. They gather under full moons to share news and warnings. Between these times, they live a relatively solitary life. Druids of the Circle of the Moon have the ability to shapeshift into various animals."
+			}
+		}
+	},
+	"Fighter": {
+		"ClassName": "Fighter",
+		"Description": "Fighters are a diverse group ranging from soldiers to gladiators to knights. They are those who have dedicated their lives to honing their skills in combat. Some are fierce warriors who seek an honorable death and others are brutish mercenaries who only love coin. However, they are a cut above your average sellsword or city guard. Fighters are usually formally trained or have learned to master a particular combat style.",
+		"SubType": "Martial Archetypes",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Champion",
+				"Description": "Champions focus on developing raw physical power and honing it to perfection. They combine rigorous training with physical excellence to deal devastating blows."
+			},
+			"Subclass2": {
+				"Name": "Battle Master",
+				"Description": "These fighters focus on employing traditional martial techniques. They study combat as a scolar would study history or magic. Indeed, Battle Masters often include subjects such as caligraphy and weaponsmithing alongside their martial studies. They are well-rounded fighters that combine great skill and knowledge."
+			},
+			"Subclass3": {
+				"Name": "Eldritch Knight",
+				"Description": "Eldritch Knights combine martial mastery with the study of magic. They study the magical schools of abjuration and evocation to grant them greater protection and reach in battle."
+			}
+		}
+	},
+	"Monk": {
+		"ClassName": "Monk",
+		"Description": "Monks are humble warriors on the outside and a wealth of knowledge and spirit on the inside. They strive to master both their bodies and their spirits in order to achieve perfection. They are powerful warriors who specialize in using simple weapons or merely their fists to subdue enemies but are also scholars who study spiritual energy. Monks learn to use this energy, called 'ki,' to create magical effects and push their bodies beyond its own limits.",
+		"SubType": "Monastic Traditions",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Way of the Open Hand",
+				"Description": "Monks of the Open Hand are masters of the martial arts, whether armed or unarmed. They learn techniques to push and trip their opponents, use ki to heal damage, and practice advanced meditation that protects them from harm."
+			},
+			"Subclass2": {
+				"Name": "Way of the Four Elements",
+				"Description": "These monks have learned to harness the power of the elements. They focus their ki to align themselves with the forces of creation then use that power to bend the elements to their will. Some dedicate themselves to a single element while others try to master all four."
+			}
+		}
+	},
+	"Paladin": {
+		"ClassName": "Paladin",
+		"Description": "Paladins are holy warriors in service to the cause of their god. They often take up adventuring to fight evil and further the purposes of their deity. They are bound by strong oaths that both guide them and grant them power from on high. To a paladin, nothing is more important than fulfilling one's oath to their god.",
+		"SubType": "Sacred Oaths",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Oath of Devotion",
+				"Description": "The Oath of Devotion binds one to the highest standards of justice, devotion, virtue, and honor. They are the ideal of the knight in shining armor. They are devoted to gods of law and good and follow in the paths of angels."
+			},
+			"Subclass2": {
+				"Name": "Oath of the Ancients",
+				"Description": "Those bound by the Oath of the Ancients are often called fey knights, green knights, or horned knights. They do not struggle against darkness for morality's sake so much as they do to protect the beautiful and life-giving things of the world."
+			},
+			"Subclass3": {
+				"Name": "Oath of Vengeance",
+				"Description": "Paladins sworn to the Oath of Vengeance are bound to punish those who do evil. They embody the wrath of the gods and seek to right the wrongs in the world. To such paladins, their own morality is not so important as delivering justice."
+			}
+		}
+	},
+	"Ranger": {
+		"ClassName": "Ranger",
+		"Description": "Rangers are great hunters, woodsmen, and denizens of the wild. They protect the civilised world from the monsters that stalk the wilds around them. In their experiences, they have learned to harness the magic of nature, allowing them to cast spells much as a druid does. Rangers sometimes live among the communities they protect and sometimes they live solitary lives in the wild. Either way, a ranger is at home in the wild.",
+		"SubType": "Ranger Archetypes",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Hunter",
+				"Description": "Hunters are the staunch protectors of civilization. They hunt down beasts which threaten their communities, whether it be trolls, orcs, giants, or dragons."
+			},
+			"Subclass2": {
+				"Name": "Beast Master",
+				"Description": "Beast Masters are a link between the civilized world and the beasts of the wild. These rangers form a strong bond with beasts and have learned to work in unison with their animal companions in order to combat threats to civilization and the natural world."
+			}
+		}
+	},
+	"Rogue": {
+		"ClassName": "Rogue",
+		"Description": "A rogue is at home with the shadows. Rogues can be thieves, assassins, spies, or con-men. Though many rogues run afoul of the law, not all do. They rely on dexterity and skill over brute strength and prefer to take down an opponent quickly and silently. Some rogues rely on quick wits and a silver tongue more than anything to get themselves out of trouble.",
+		"SubType": "Roguish Archetypes",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Thief",
+				"Description": "Whether one considers oneself a burgler, bandit, cutpurse, or innocent treasure seeker, a thief has honed their skills in the larcenous arts. Agility and stealth are vital to a thief's survival, whether doing a heist or delving a dungeon or merely avoiding the authorities."
+			},
+			"Subclass2": {
+				"Name": "Assassin",
+				"Description": "For an assassin, death is a skill and a trade. They are hired killers, spies, bounty hunters, and even priests trained to exterminate the enemies of their god."
+			},
+			"Subclass3": {
+				"Name": "Arcane Trickster",
+				"Description": "Some rogues enhance their skills with magic. They shroud themselves in illusion and enchantment in order to reach their goals."
+			}
+		}
+	},
+	"Sorceror": {
+		"ClassName": "Sorcerer",
+		"Description": "Sorcerers have magic in their blood. Their magic is powerful and unpredictable. Sometimes this power comes from a magical bloodline, other times it eminates from a vast power deep within the individual. Most sorcerers are not formally trained and instead rely on instinct rather than years of study. While this means that they don't have quite the expansive arsenal of spells that a wizard might, the power that they invest in their magic is much greater.",
+		"SubType": "Sorcerous Origins",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Draconic Bloodline",
+				"Description": "When the dragon blood enters a mortal bloodline, it can produce sorcerers of great power. Sometimes generations apart, other times plentiful in a bloodline, these sorcerers lay claim to the magic of the dragons."
+			},
+			"Subclass2": {
+				"Name": "Wild Magic",
+				"Description": "Wild magic comes from the innate forces of chaos that underlie the order of creation. Sometimes an individual finds oneself attuned to this energy and is able to wield it. Wild magic is powerful but can be chaotic and dangerous."
+			}
+		}
+	},
+	"Warlock": {
+		"ClassName": "Warlock",
+		"Description": "Warlocks are powerful spellcasters that derive their powers from an otherwoldly beings. This often comes in the form of a binding pact. These pacts can be that of an oath of servitude from either side or even mutually beneficial. Warlocks are driven by a lust for hidden knowledge and power, which drives them to make such pacts.",
+		"SubType": "Otherworldy Patrons",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "The Archfey",
+				"Description": "Warlocks sometimes serve a lord or lady of the fey, an imortal being of great magic and beauty. This beings motives are often inscrutible and whimsical. Such beings include the Prince of Frost; the Queen of Air and Darkness; Oberon, the Green Lord; or even ancient hags."
+			},
+			"Subclass2": {
+				"Name": "The Fiend",
+				"Description": "Many warlocks are known to have made pacts with wicked fiends. The goals of the fiend are evil and include the corruption and destruction of all things. Such beings include demon lords such as Demogorgon and Orcus or archdevils like Asmodeus and Belial."
+			},
+			"Subclass3": {
+				"Name": "The Great Old One",
+				"Description": "The Great Old Ones hail from a realm outside reality called the Far Realm. These beings are incomprehensible in nature, transcending the logic of mortal, and even immortal, minds. However, they hold vast secrets that draw many a warlock to them. Some Great Old Ones are That Which Lurks; Tharizdun, the Chained God; Dendar, the Night Serpent; and Great Cthulu."
+			}
+		}
+	},
+	"Wizard": {
+		"ClassName": "Wizard",
+		"Description": "Wizards are masters of magic and scholars of the arcane. They dedicate their entire lives to searching out magical secrets and increasing their power. A wizard is drawn to knowledge, and many seclude themselves so that they might envelop themselves completely in their studies. Others seek a life of adventure, learning from others and their experiences as much as they do old tomes.",
+		"SubType": "Arcane Traditions",
+		"Subclasses": {
+			"Subclass1": {
+				"Name": "Schools of Magic",
+				"Description": "Wizards adopt an arcane tradition, which dedicates them more fully to a specific school of magic. Each spell belongs to a certain school, and wizards are able to more easily learn spells of their chosen school. The schools of magic are Abjuration, Conjuration, Enchantment, Evocation, Illusion, Necromancy, and Transmutation"
+			}
+		}
+	},
+	"Acolyte": {
+		"BackName": "Acolyte",
+		"Description": "An acolyte has spent his/her life in the service of a temple or a specific god or pantheon of gods. They have gone about their lives performing sacred rites and acting as an intermediary between mortal and deity."
+	},
+	"Charlatan": {
+		"BackName": "Charlatan",
+		"Description": "A charlatan is one that has a way with people. They know what makes them tick and, after a few minutes of conversation, can read them like a book. They use this talent to their advantage without hesitation."
+	},
+	"Criminal": {
+		"BackName": "Criminal",
+		"Description": "This is someone who has experience with breaking the law. Criminals often have contacts within the shady underworld. They are survivors in a world that is truly lawless."
+	},
+	"Entertainer": {
+		"BackName": "Entertainer",
+		"Description": "Entertainers thrive in front of an audience. They know how to entrance them, entertain them, and stir emotion with inspiring performances. An entertainer's art is their life."
+	},
+	"FolkHero": {
+		"BackName": "Folk Hero",
+		"Description": "A champion of the meek, the folk hero comes from humble beginnings. They've answered the call of destiny and have set out to defeat the evil that threatens their people."
+	},
+	"GuildArtisan": {
+		"BackName": "Guild Artisan",
+		"Description": "As members of an artisan's guild, these fine folks make their trade in a particular craft or skill. They are established members of the mercantile world and are masters of their trades."
+	},
+	"Hermit": {
+		"BackName": "Hermit",
+		"Description": "Secluding themselves from the world for various reasons, hermits prefer a solitary life. Sometimes they seek answers that can only be found when one is completely alone. Other times they just want to get away from the world. However, there is something that draws them out of their solitude from time to time."
+	},
+	"Noble": {
+		"BackName": "Noble",
+		"Description": "Born to power, wealth, and privelege, the noble carries a title of some import with him. A noble might be a pampered aristocrat or a hard-working land-owner or an exile disinherited for dishonoring their family."
+	},
+	"Outlander": {
+		"BackName": "Outlander",
+		"Description": "Outlanders hail from far away lands, growing up in strange wildernesses far from civilization. They are at home in such wilds and have seen things that are beyond the comprehension of any city-dweller. The wild the outlander's home no matter where it is."
+	},
+	"Sage": {
+		"BackName": "Sage",
+		"Description": "Devoted to learning the lore of the universe, the sage has spent years learning from scrolls, manuscripts, and the great minds of the time. The sage has mastered their fields of study and can, in their own right, be considered an expert in many things."
+	},
+	"Sailor": {
+		"BackName": "Sailor",
+		"Description": "A love of the sea combined with skill and heartiness is what makes up a sailor. Having spent years on the sea, the sailor's love is the distant line of the horizon. Sometimes an urge for something more drives them to wander from their seafaring vessels and seek out new horizons."
+	},
+	"Soldier": {
+		"BackName": "Soldier",
+		"Description": "War never changes. For a soldier, war is a way of life. One might be a member of a standing national army, a local militia, or a trained mercenary company. Trained in the art of combat, the soldier has learned the skills necessary to survive on the battlefield."
+	},
+	"Urchin": {
+		"BackName": "Urchin",
+		"Description": "Growing up on the rough streets, ophaned and alone, the urchin has learned how to survive in the city. The urchin has had to fight for everything they have down to their foodscraps. Life has not been easy for this one, but they are alive and that's all that matters."
+	}
+}
