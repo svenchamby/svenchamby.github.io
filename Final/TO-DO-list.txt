@@ -1,3 +1,2 @@
 images
-mobile display + menus + buttons
-css modifications + buttons + generator
+css modifications + generator

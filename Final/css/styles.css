@@ -36,6 +36,9 @@ h6 {
 	margin: auto;
 	padding: 0.5em;
 }
+img {
+	max-width: 80vw;
+}
 
 main,
 #display {
@@ -43,9 +46,12 @@ main,
 	margin: auto;
 }
 
-#abilities {
+#subsection {
 	width: 90%;
 	margin: auto;
+}
+#subsection ul {
+	list-style: none;
 }
 
 
@@ -133,6 +139,22 @@ footer ul li {
 
 .bigdisplay {
 	display: none;
+}
+/* buttons */
+.btn {
+	background-color: black;
+	color: ghostwhite;
+	border: darkred 3px solid;
+	margin: 1%;
+}
+.btn:hover {
+	background-color: ghostwhite;
+	color: black;
+}
+.btn:active {
+	background-color: black;
+	color: ghostwhite;
+	border: darkred 3px solid;
 }
 /* media queries */
 
