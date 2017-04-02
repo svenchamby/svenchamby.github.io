@@ -66,25 +66,38 @@ img {
 
 /* navigation */
 nav {
-	padding: 1.5em 2em;
+	background-color: black;
+	width: 100vw;
+	margin: 0;
 }
 nav ul {
-	margin: 0;
-	padding: 0;
+	font-family: Roboto Slab, sans-serif;
+	text-align: center;
 }
-nav .link {
-	display: inline;
-	margin-right: 1em;
+nav ul li {
+	list-style: none;
+	display: inline-flex;
+	margin: auto;
 }
-nav .link a {
-	color: aliceblue;
-	text-decoration: none;
+nav li a {
+	color: ghostwhite;
+	background-color: black;
+	padding: 0.75em;
 }
-nav .link a:visited {
-	color: #fff;
+nav li a:visited {
+	color: ghostwhite;
 }
-nav .link a:active {
-	color: lightgreen;
+nav li a:hover {
+	color: darkred;
+	background-color: white;
+}
+nav li a:focus {
+	color: darkred;
+	background-color: ghostwhite;
+}
+nav li a:active {
+	color: black;
+	background-color: ghostwhite;
 }
 
 /* link styles */
