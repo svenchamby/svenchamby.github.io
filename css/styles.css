@@ -80,7 +80,10 @@ footer {
 	padding: 1em;
 	height: 130px;
 }
+footer ul {
+	margin: 0;
 
+}
 footer ul li {
 	list-style: none;
 }
@@ -139,7 +142,7 @@ footer ul li {
 }
 
 #headimg {
-	width: 90%;
+	width: 100%;
 	display: block;
 	margin: auto;
 }
@@ -148,7 +151,6 @@ footer ul li {
 	visibility: hidden;
 	height: 0;
 }
-
 
 /* buttons */
 

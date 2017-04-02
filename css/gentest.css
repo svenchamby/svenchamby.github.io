@@ -10,8 +10,7 @@
 	font: 11pt helvetica;
 	width: 100%;
 	display: inline-flex;
-	flex-flow: row wrap;
-	justify-content: center;
+	flex-flow: column wrap;
 }
 
 .alText {
@@ -47,6 +46,7 @@
 .info {
 	float: right;
 	padding-right: 1em;
+	color: red;
 }
 
 .spells {
