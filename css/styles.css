@@ -89,8 +89,26 @@ footer ul {
 footer ul li {
 	list-style: none;
 }
+/* inset video and image styles */
+#video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0; overflow: hidden;
+}
 
-
+#video-container iframe,
+#video-container object,
+#video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.innerImg {
+	width: 100%;
+	max-width: 500px;
+}
 /* nav styles */
 
 .dropbtn {
@@ -143,13 +161,13 @@ footer ul li {
 	display: none;
 }
 
-#headimg {
+.headimg {
 	width: 100%;
 	display: block;
 	margin: auto;
 }
 
-.large {
+#large {
 	visibility: hidden;
 	height: 0;
 }
@@ -196,11 +214,11 @@ footer ul li {
 	.bigdisplay {
 		display: block;
 	}
-	.large {
+	#large {
 		visibility: visible;
 		height: auto;
 	}
-	.mobile {
+	#mobile {
 		visibility: hidden;
 		height: 0;
 	}
